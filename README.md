@@ -7,6 +7,7 @@ Mở Terminal/Command Prompt tại thư mục dự án và chạy lệnh sau đ�
 
 Bash
 pip install streamlit pandas folium streamlit-folium requests
+
 3. Khởi tạo Dữ liệu Đồ thị
 Trước khi chạy ứng dụng lần đầu tiên, bạn cần tạo lưới dữ liệu 100 đường bằng cách chạy lệnh:
 
