@@ -1,0 +1,101 @@
+ID,node1,node2,blocked
+0,Pasar Seni,Perdana Botanical,False
+1,Masjid Jamek,Perdana Botanical,False
+2,KL Tower,Merdeka,False
+3,Bukit Damansara,Mont Kiara,False
+4,Ampang Park,KL Tower,False
+5,Bukit Bintang,The Intermark,False
+6,Publika,Solaris,False
+7,KL Tower,The Intermark,False
+8,Bukit Bintang,Chinatown,False
+9,Bukit Bintang,KLCC,False
+10,Bangsar,Bangsar South,False
+11,Masjid Jamek,Pasar Seni,False
+12,Brickfields,Perdana Botanical,False
+13,Ampang Park,Bukit Bintang,False
+14,KL Tower,KLCC,False
+15,Masjid Jamek,Sunway Putra,False
+16,KLCC,Royal Selangor Golf,False
+17,Masjid Jamek,Merdeka,False
+18,Merdeka,Pavilion,False
+19,Bangsar,Brickfields,False
+20,Bukit Bintang,Pasar Seni,False
+21,Brickfields,Muzium Negara,False
+22,Sunway Putra,Titiwangsa,False
+23,Chinatown,Pavilion,False
+24,KL Tower,Pasar Seni,False
+25,Bangsar,Mid Valley,False
+26,Ampang Park,The Intermark,False
+27,KL Sentral,Perdana Botanical,False
+28,Brickfields,Merdeka,False
+29,Sunway Putra,Titiwangsa Lake,False
+30,Chinatown,KL Sentral,False
+31,KL Sentral,Masjid Jamek,False
+32,Ampang Park,KLCC,False
+33,Mont Kiara,Solaris,False
+34,Bukit Damansara,Istana Negara,False
+35,Bangsar,KL Sentral,False
+36,Minden,Mont Kiara,False
+37,KL Sentral,Muzium Negara,False
+38,KLCC,Titiwangsa,False
+39,Damansara,Istana Negara,False
+40,Pavilion,The Intermark,False
+41,Merdeka,Pudu,False
+42,Brickfields,Chinatown,False
+43,KL Sentral,Pasar Seni,False
+44,Chinatown,Pudu,False
+45,Titiwangsa,Titiwangsa Lake,False
+46,KL Sentral,Merdeka,False
+47,KLCC,Titiwangsa Lake,False
+48,Chinatown,Masjid Jamek,False
+49,Pasar Seni,Pavilion,False
+50,Chinatown,KL Tower,False
+51,Masjid Jamek,Pavilion,False
+52,KLCC,Masjid Jamek,False
+53,Brickfields,Pasar Seni,False
+54,Chinatown,Muzium Negara,False
+55,Bukit Bintang,Pavilion,False
+56,Brickfields,Mid Valley,False
+57,KL Tower,Pavilion,False
+58,Chinatown,Merdeka,False
+59,KLCC,Sunway Putra,False
+60,KLCC,Merdeka,False
+61,Royal Selangor Golf,The Intermark,False
+62,Merdeka,Perdana Botanical,False
+63,Pasar Seni,Pudu,False
+64,Chinatown,Perdana Botanical,False
+65,Pudu,Royal Selangor Golf,False
+66,Bukit Bintang,Royal Selangor Golf,False
+67,Muzium Negara,Perdana Botanical,False
+68,KLCC,Pavilion,False
+69,KLCC,The Intermark,False
+70,Bukit Damansara,Damansara,False
+71,KL Sentral,Mid Valley,False
+72,KL Tower,Royal Selangor Golf,False
+73,Bangsar South,Mid Valley,False
+74,Batu Caves,Titiwangsa,False
+75,Ampang Park,Pavilion,False
+76,Bukit Bintang,Pudu,False
+77,Merdeka,Muzium Negara,False
+78,Bangsar,Perdana Botanical,False
+79,Mont Kiara,Publika,False
+80,Pavilion,Royal Selangor Golf,False
+81,KL Tower,Pudu,False
+82,Masjid Jamek,Muzium Negara,False
+83,Bukit Bintang,Masjid Jamek,False
+84,Merdeka,Pasar Seni,False
+85,Bukit Bintang,KL Tower,False
+86,Pavilion,Pudu,False
+87,KL Tower,Masjid Jamek,False
+88,Batu Caves,Titiwangsa Lake,False
+89,Chinatown,Pasar Seni,False
+90,Muzium Negara,Pasar Seni,False
+91,Bangsar,Muzium Negara,False
+92,Bukit Damansara,Minden,False
+93,Minden,Solaris,False
+94,Bangsar,Istana Negara,False
+95,Damansara,Minden,False
+96,Ampang Park,Royal Selangor Golf,False
+97,Bukit Bintang,Merdeka,False
+98,Brickfields,KL Sentral,False
+99,KL Tower,Sunway Putra,False

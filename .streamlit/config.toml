@@ -1,0 +1,14 @@
+[theme]
+primaryColor = "#F63366"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+# Giảm thiểu việc nháy bằng cách kiểm tra thay đổi file ít hơn
+runOnSave = true
+
+[browser]
+# Tắt toolbar của Streamlit để giao diện sạch hơn
+toolbarMode = "minimal"
