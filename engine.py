@@ -25,6 +25,8 @@ def search_algorithm(start_node, goal_node, nodes_data, edges_data, blocked_node
     fringe = [] 
     if strategy == 'BFS':
         fringe = deque([SearchNode(start_node, None, 0, 0)])
+    elif strategy == 'DFS':
+        fringe = [SearchNode(start_node, None, 0, 0)]
     else:
         h_start = haversine_distance(nodes_data[start_node], nodes_data[goal_node]) if strategy == 'A*' else 0
         heapq.heappush(fringe, SearchNode(start_node, None, 0, h_start))
@@ -33,7 +35,12 @@ def search_algorithm(start_node, goal_node, nodes_data, edges_data, blocked_node
     explored_count = 0
 
     while fringe:
-        current_node = fringe.popleft() if strategy == 'BFS' else heapq.heappop(fringe)
+        if strategy == 'BFS': 
+            current_node = fringe.popleft()
+        elif strategy == 'DFS': 
+            current_node = fringe.pop()
+        else: 
+            current_node = heapq.heappop(fringe)
         
         if current_node.state == goal_node:
             path, cost = [], current_node.g
@@ -56,7 +63,9 @@ def search_algorithm(start_node, goal_node, nodes_data, edges_data, blocked_node
                 h_n = haversine_distance(nodes_data[neighbor], nodes_data[goal_node]) if strategy == 'A*' else 0
                 
                 new_node = SearchNode(neighbor, current_node, g_n, h_n)
+        
                 if strategy == 'BFS': fringe.append(new_node)
+                elif strategy == 'DFS': fringe.append(new_node)
                 else: heapq.heappush(fringe, new_node)
                 
     return None, 0, explored_count
